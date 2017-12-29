@@ -31,6 +31,9 @@ All other lines are ignored by the parser
 ；;
 ＝=
 ＞>
+＜<
+≪«
+≫»
 ？?
 ＡA
 ＢB
