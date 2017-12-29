@@ -10,7 +10,6 @@ namespace Moonbeam
         static void Main(string[] args)
         {
             MBM.LoadDictionary(File.ReadAllLines("dic.txt"));
-            var L = args.Length;
             switch (args[0])
             {
                 case "-e":
