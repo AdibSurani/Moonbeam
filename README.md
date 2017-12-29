@@ -8,8 +8,10 @@ Por ejemplo:
 "Moonbeam.exe -e "C:\carpeta""
 El programa tiene varios parametros y modos de uso.
 Los primeros dos parametros que hay que insertar son los siguientes:
+
 	- "-e" para exportar de MBM a XML
 	- "-i" para importar de XML a MBM
+	
 Tras esto, hay dos formas de usar el programa: el modo explicito y el modo recursivo.
 
 El modo explicito se activa al introducir en la ruta directamente el archivo a convertir y solo tratará dicho archivo.
@@ -28,8 +30,10 @@ For example:
 "Moonbeam.exe -e "C:\folder""
 The program has various parameters and use modes.
 The first two parameters that you need to insert are:
+
 	- "-e" to export MBM to XML
 	- "-i" to import XML to MBM
+	
 Then, there's two use modes: explicit and recursive mode.
 
 The explicit mode is enabled when you apply into the path the file to convert, it will only convert that file.
