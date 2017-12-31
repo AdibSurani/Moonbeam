@@ -60,6 +60,14 @@ namespace Moonbeam
                             break;
                     }
                     break;
+                case "-v":
+                    var root = new XElement("mbms", Directory.GetFiles(args[1], "*.mbm", SearchOption.AllDirectories)
+                        .Select(path => new XElement("mbm", new XAttribute("path", path),
+                        from entry in MBM.FromByteArray(File.ReadAllBytes(path))
+                        let idattr = new XAttribute("id", entry.Id)
+                        select new XElement("entry", idattr, entry.Text))));
+                    File.WriteAllText(args[1] + ".xml", root.ToString());
+                    break;
             }
             
         }
