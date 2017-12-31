@@ -11,6 +11,7 @@ Los primeros dos parametros que hay que insertar son los siguientes:
 
 	- "-e" para exportar de MBM a XML
 	- "-i" para importar de XML a MBM
+	- "-v" para exportar de (n ->1) MBM a XML, es decir, de varios MBM un solo XML (No hecho para traducir)
 	
 Tras esto, hay dos formas de usar el programa: el modo explicito y el modo recursivo.
 
@@ -33,6 +34,7 @@ The first two parameters that you need to insert are:
 
 	- "-e" to export MBM to XML
 	- "-i" to import XML to MBM
+	- "-v" to export a (n ->1) MBM to XML, from n MBM 1 XML, not for translation purposes
 	
 Then, there's two use modes: explicit and recursive mode.
 
