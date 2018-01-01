@@ -1,4 +1,4 @@
-Lines with exactly 2 characters are dictionary entries
+﻿Lines with exactly 2 characters are dictionary entries
 All other lines are ignored by the parser
 ‘`
 ’'
@@ -31,6 +31,9 @@ All other lines are ignored by the parser
 ；;
 ＝=
 ＞>
+＜<
+≪«
+≫»
 ？?
 ＡA
 ＢB
